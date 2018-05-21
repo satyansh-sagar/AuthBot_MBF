@@ -119,33 +119,7 @@ namespace Microsoft.Bot.Sample.SimpleEchoBot
 
 
 
-    //My Custom Method
-    //private async Task WaitForToken(IDialogContext context, IAwaitable<object> result)
-    //{
-    //    var activity = await result as Activity;
-
-    //    var tokenResponse = activity.ReadTokenResponseContent();
-    //    if (tokenResponse != null)
-    //    {
-    //        //Send to the dialog needed
-    //        await context.PostAsync("This is token response method, login success.");
-    //    }
-    //    else
-    //    {
-    //        if (!string.IsNullOrEmpty(activity.Text))
-    //        {
-    //            tokenResponse = await context.GetUserTokenAsync(ConnectionName, activity.Text);
-    //            if (tokenResponse != null)
-    //            {
-    //                await context.PostAsync("This is token response method 2, login success.");
-    //                // Use the token to do exciting things!
-    //                return;
-    //            }
-    //        }
-    //        await context.PostAsync($"Hmm. Something went wrong. Let's try again.");
-    //        await SendOAuthCardAsync(context, activity);
-    //    }
-    //}
+   
 
 
 }
